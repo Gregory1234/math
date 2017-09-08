@@ -34,7 +34,7 @@ void main() {
 }
 
 bool check(u_llong l) {
-	if (fmod(sqrt(l - 1), 1) != 0)
+	if (fmod(sqrtl(l - 1), 1) != 0)
 		return false;
 	if (l < 2) return false;
 	for (u_llong i = 2; i <= sqrtl(l); i++) {
